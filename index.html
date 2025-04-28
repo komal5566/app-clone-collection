@@ -1,161 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <div class="main">
-        <nav> 
-            <span><img width="85"src="assets/images/logo.svg"></span>
-            <div>
-                <button class="btn">English</button>
-                <button class="btn btn-red-sm">Sign In</button>
-            </div>
-        </nav>
-        <div class="box">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home/X</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="css/output.css" />
+  </head>
+  <body class="bg-black text-white">
+    <div class="flex container mx-auto my-4">
+      <div class="first w-[50%]">
+        <div class="sidebar flex md:items-end flex-col sticky top-0">
+          <div
+            class="logo invert my-4 self-start mx-5 md:mx-16 hover:bg-gray-300 hover:cursor-pointer px-3 py-0 hover:rounded-full"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              class="m-auto w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
+            >
+              <g>
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <ul class="flex flex-col text-sm md:px-8 font-bold w-full">
+            <li
+              class="flex md:justify-start items-center gap-3 justify-center mr-2 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full"
+            >
+              <span class="text-3xl material-symbols-outlined"> home </span>
+              <span class="hidden md:block">Home</span>
+            </li>
+            <li
+              class="flex md:justify-start items-center gap-3 justify-center mr-2 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full"
+            >
+              <span class="text-3xl material-symbols-outlined"> search </span>
+              <span class="hidden md:block">Explore</span>
+            </li>
+            <li
+              class="flex md:justify-start items-center gap-3 justify-center mr-2 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full"
+            >
+              <span class="text-3xl material-symbols-outlined">
+                notifications
+              </span>
+             <span class="hidden md:block">Notifications</span> 
+            </li>
+            <li
+              class="flex md:justify-start items-center gap-3 justify-center mr-2 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full"
+            >
+              <span class="text-3xl material-symbols-outlined"> mail </span>
+              <span class="hidden md:block">Messages</span>
+            </li>
+            <li
+              class="flex md:justify-start items-center gap-3 justify-center mr-2 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full"
+            >
+              <span class="text-3xl material-symbols-outlined"> add </span> <span class="hidden md:block">Grok</span>
+            </li>
+            <li
+              class="flex md:justify-start items-center gap-3 justify-center mr-2 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full"
+            >
+              <span class="text-3xl material-symbols-outlined"> person </span>
+             <span class="hidden md:block">Profile</span> 
+            </li>
+            <li
+              class="flex md:justify-start items-center gap-3 justify-center mr-2 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full"
+            >
+              <span class="text-3xl material-symbols-outlined"> pending </span>
+             <span class="hidden md:block"> More</span>
+            </li>
           
-        </div>
-        <div class="hero">
-            <span>Enjoy big movies, hit series and more from ₹ 149.</span>
-            <span>Join today. Cancel anytime.</span>
-            <span>Ready to watch? Enter your email to create or restart your membership.</span>
-            <div class="hero-buttons">
-                <input type="text" placeholder="Email Address">
-                <button class="btn btn-red">Get Started</button>
-            </div>
-        </div>
-        <div class="separation"></div>
-        
-    </div>
-    <section class="first">
-        <div>
-            <span>Enjoy on your TV</span>
-            <span>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
-        </div>
-        <div class="secImg">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
-       
-            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
-            autoplay loop muted></video>
-        </div>
-
-    </section>
-    <div class="separation"></div>
-    <section class="first second">
-        
-        <div class="secImg">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+              <button
+              class=" cursor-pointer px-4 py-2 bg-white text-black text-sm rounded-full  hover:bg-gray-300 hover:cursor-pointer hover:rounded-full"
+            >
+              Post
+            </button>
            
+            <div class="image flex justify-start gap-2 cursor-pointer  hover:bg-gray-900 hover:cursor-pointer  py-4 px-4  hover:rounded-full">
+              <img
+                src="czhMdiu4_400x400.jpg"
+                alt=""
+                class="w-10 h-10 object-cover rounded-full"
+              />
+              <div class="alignment flex-col">
+                <div class="heading hover:underline font-bold text-xs text-left">
+                  Komal Vaishnav
+                </div>
+                <div class="sub text-xs text-gray-500">@meenu_5566</div>
+              </div>
+           
+           
+          </ul>
+         
+            
+         
         </div>
-        <div>
-            <span>Download your shows to watch offline</span>
-            <span>Save your favourites easily and always have something to watch.</span>
+      </div>
+      <div class="second w-[150%] border-[1px] border-slate-700 border-y-black">
+        <div class="top flex p-2 relative">
+          <div
+            class="absolute w-14 h-1 bg-blue-500 bottom-0 left-[17%] rounded-full z-10"
+          ></div>
+          <div class="left w-1/2 text-center font-bold text-sm">For you</div>
+          <div class="right w-1/2 text-center text-sm text-gray-600">
+            Following
+          </div>
+          <div class="settings">
+            <span class="material-symbols-outlined"> settings </span>
+          </div>
         </div>
-    </section>
-    <div class="separation"></div>
-    <section class="first third">
-        
-        <div>
-            <span>Watch everywhere</span>
-            <span>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</span>
-        </div>
-        <div class="secImg">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
-            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
-                autoplay loop muted></video>
-        </div>
-    </section>
-    <div class="separation"></div>
 
-
-    <section class="first second">
-
-        <div class="secImg">
-            <img src="https://occ-0-2849-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d"
-                alt="">
-
+        <div class="h-[1px] w-full bg-gray-700"></div>
+        <div class="whatishapp flex justify-start gap-2 px-4 py-4">
+          <img
+            src="czhMdiu4_400x400.jpg"
+            alt=""
+            class="w-10 h-10 object-cover rounded-full"
+          />
+          <div class="alignment flex-col">
+            <input
+              type="text"
+              class="bg-black text-gray-600 text-lg"
+              placeholder="What's happening?"
+            />
+            <div
+              class="sub text-xs text-blue-400 font-bold py-2 flex justify-start items-center gap-1"
+            >
+              <span class="material-symbols-outlined text-base"> public </span>
+              <div>Everyone can reply</div>
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+            <div class="icons flex justify-between items-center py-2">
+              <ul class="flex gap-2 text-blue-400 cursor-pointer">
+                <li>
+                  <span
+                    class="material-symbols-outlined text-lg hover:bg-blue-200 hover:cursor-pointer px-1 py-0 hover:rounded-full"
+                    >image</span
+                  >
+                </li>
+                <li>
+                  <span
+                    class="material-symbols-outlined text-lg hover:bg-blue-200 hover:cursor-pointer px-1 py-0 hover:rounded-full"
+                    >gif_box</span
+                  >
+                </li>
+                <li>
+                  <span
+                    class="material-symbols-outlined text-lg hover:bg-blue-200 hover:cursor-pointer px-1 py-0 hover:rounded-full"
+                    >mood</span
+                  >
+                </li>
+                <li>
+                  <span
+                    class="material-symbols-outlined text-lg hover:bg-blue-200 hover:cursor-pointer px-1 py-0 hover:rounded-full"
+                    >calendar_month</span
+                  >
+                </li>
+                <li>
+                  <span
+                    class="material-symbols-outlined text-lg hover:bg-blue-200 hover:cursor-pointer px-1 py-0 hover:rounded-full"
+                    >location_on</span
+                  >
+                </li>
+                <li>
+                  <span
+                    class="material-symbols-outlined text-lg hover:bg-blue-200 hover:cursor-pointer px-1 py-0 hover:rounded-full"
+                    >pending_actions</span
+                  >
+                </li>
+                <li>
+                  <span
+                    class="material-symbols-outlined text-lg hover:bg-blue-200 hover:cursor-pointer px-1 py-0 hover:rounded-full"
+                    >favorite</span
+                  >
+                </li>
+              </ul>
+              <div class="post">
+                <button
+                  class="mx-8 mr-10 md:w-fit cursor-pointer px-4 py-2 bg-gray-400 text-black text-sm font-bold rounded-full"
+                >
+                  Post
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-            <span>Create profiles for kids</span>
-            <span>Send children on adventures with their favourite characters in a space made just for them—free with
-                your membership.</span>
+        <div class="h-[1px] w-full bg-gray-700"></div>
+        <div class="m-2 show text-blue-400 text-center text-sm">
+          Show 630 posts
         </div>
-    </section>
+        <div class="h-[1px] w-full bg-gray-700"></div>
 
-    <div class="separation"></div>
+        <div class="posts">
+          <div class="post border-[1px] border-y-gray-600 border-x-0  ">
+              <div class="flex">
+                  <div class="image m-4">
+                      <img class="w-20 rounded-full"
+                          src="elon.jpg" alt="">
+                  </div>
+                  <div class="content my-3">
+                      <span class="font-bold hover:underline cursor-pointer text-white">Elon Musk</span> <span
+                          class="text-gray-500">@ElonMusk · 6h </span>
+                      <div class="postimg m-2 ml-0"> 
+                        <div class="postimg m-4 ml-0">
+                        <video id="myVideo" width="600"  autoplay muted controls >
+                          <source src="spacex.mp4" type="video/mp4">
+                          Your browser does not support HTML video.
+                        </video>
+                      </div>
+                    
+                      </div>
+                      <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                          <div
+                              class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                              <span class="material-symbols-outlined">
+                                  chat_bubble
+                              </span> 1k
+                          </div>
+                          <div
+                              class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                              <span class="material-symbols-outlined">
+                                  repeat
+                              </span> 1k
+                          </div>
+                          <div
+                              class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                              <span class="material-symbols-outlined">
+                                  Favorite
+                              </span> 1k
+                          </div>
+                          <div
+                              class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                              <span class="material-symbols-outlined">
+                                  bar_chart
+                              </span> 1k
+                          </div>
 
-    <section class="faq">
-        <h2>Frequently Asked Questions</h2>
-        <div class="faqbox">
-            <span>What is NetFlix</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            
 
-        </div>
-        <div class="faqbox">
-            <span>How much does Netflix cost?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
+            <div class="post border-[1px] border-y-gray-600 border-x-0  ">
+              <div class="flex">
+                  <div class="image m-4">
+                      <img class="w-12 rounded-full"
+                          src="2ndpost.jpg" alt="">
+                  </div>
+                  <div class="content my-3">
+                      <span class="font-bold hover:underline cursor-pointer text-white">.</span> <span
+                          class="text-gray-500">@WordsCocoon . 2h</span>
+                      <div class="postimg m-2 ml-0"> 
+                        april 28, monday...
+                        <div class="postimg m-4 ml-0">
+                          <img class="rounded-xl"
+                              src="2ndpostcontent.jpg" alt="">
+                      </div>
+                      </div>
+                      <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                          <div
+                              class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                              <span class="material-symbols-outlined">
+                                  chat_bubble
+                              </span> 3k
+                          </div>
+                          <div
+                              class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                              <span class="material-symbols-outlined">
+                                  repeat
+                              </span> 12k
+                          </div>
+                          <div
+                              class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                              <span class="material-symbols-outlined">
+                                  Favorite
+                              </span> 5k
+                          </div>
+                          <div
+                              class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                              <span class="material-symbols-outlined">
+                                  bar_chart
+                              </span> 11k
+                          </div>
 
-        </div>
-        <div class="faqbox">
-            <span>What can I watch on Netflix?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-
-        </div>
-        <div class="faqbox">
-            <span>Where can I watch?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-
-        </div>
-    </section>
-    <div class="separation"></div>
-    <footer>
-        <div class="questions">
-            Questions? Call 000-800-919-1694
-        </div>
-        <div class="footer">
-            <div class="footer-item"> 
-                <a href="faq">Investor Relations</a>
-                <a href="faq">Jobs</a>
-                <a href="faq">Ways to Watch</a>
-                <a href="faq">Terms of Use</a>
+                      </div>
+                  </div>
+              </div>
             </div>
 
-            <div class="footer-item"> 
-                <a href="faq">Help Centre</a>
-                <a href="faq">Account</a>
-                <a href="faq">Speed Test</a>
-                <a href="faq">Legal Notices</a>
-            </div>
-            <div class="footer-item">
-                <a href="faq">Media Centre</a>
-                <a href="faq">Privacy</a>
-                <a href="faq">Cookie Preferences</a> 
-                <a href="faq">Corporate</a>
+
+            <div class="post border-[1px] border-y-gray-600 border-x-0  ">
+              <div class="flex">
+                  <div class="image m-4">
+                      <img class="w-12 rounded-full"
+                          src="czhMdiu4_400x400.jpg" alt="">
+                  </div>
+                  <div class="content my-3">
+                      <span class="font-bold hover:underline cursor-pointer text-white">komal vaishnav</span> <span
+                          class="text-gray-500">
+                          @meenu_5566
+                          ·
+                          Oct 28, 2023</span>
+                      <div class="postimg m-2 ml-0"> 
+                        Pretend like it’s the weekend and we can pretend it all the time
+                        <div class="postimg m-4 ml-0">
+                          <img class="rounded-xl"
+                              src="post3.jpg" alt="">
+                      </div>
+                      </div>
+                      <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                          <div
+                              class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                              <span class="material-symbols-outlined">
+                                  chat_bubble
+                              </span> 1
+                          </div>
+                          <div
+                              class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                              <span class="material-symbols-outlined">
+                                  repeat
+                              </span> 0
+                          </div>
+                          <div
+                              class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                              <span class="material-symbols-outlined">
+                                  Favorite
+                              </span> 4
+                          </div>
+                          <div
+                              class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                              <span class="material-symbols-outlined">
+                                  bar_chart
+                              </span> 122
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
             </div>
 
-            <div class="footer-item">
-                <a href="faq">Contact Us</a>
-                <a href="faq">Speed Test</a> 
-                <a href="faq">Legal Notices</a> 
-                <a href="faq">Only on Netflix</a>
-            </div>
+
+
+
+
+          </div>
+
+         
+      </div>
+      <div class="third w-full">
+        <div class="search m-3">
+          <input
+            type="text"
+            class="w-80 rounded-full bg-black text-white border text-sm border-slate-700 px-4 py-2"
+            placeholder="Search"
+          />
         </div>
-    </footer>
-</body>
-</html> 
+        <div
+          class="whats m-3 px-4 py-3 bg-black w-80 rounded-xl border border-slate-700"
+        >
+          <h1 class="text-lg"><b>What’s happening</b></h1>
+
+          <div class="image py-3 flex justify-center gap-2 cursor-pointer">
+            <img
+              src="Rny1a6iR.jpg"
+              alt=""
+              class="w-16 h-16 object-cover rounded-lg"
+            />
+            <div class="alignment flex-col">
+              <div class="heading font-bold text-sm text-left">
+                From the Desk of Anthony Pompliano
+              </div>
+              <div class="sub text-sm text-gray-500">LIVE</div>
+            </div>
+          </div>
+          <div class="item py-3 hover:bg-gray-900 cursor-pointer">
+            <div class="text-sm text-gray-500">Politics · Trending</div>
+            <div class="font-bold">#BombThreat</div>
+            <div class="text-sm text-gray-500">42.2k Posts</div>
+          </div>
+
+          <div class="item py-3 hover:bg-gray-900 cursor-pointer">
+            <div class="text-sm text-gray-500">News · Trending</div>
+            <div class="font-bold">रवीश कुमार</div>
+            <div class="text-sm text-gray-500">4,947 posts</div>
+          </div>
+
+          <div class="item py-3 hover:bg-gray-900 cursor-pointer">
+            <div class="text-sm text-gray-500">Entertainment · Trending</div>
+            <div class="font-bold">#ShahRukhKhan</div>
+            <div class="text-sm text-gray-500">10k posts</div>
+          </div>
+          <div class="item">
+            <div class="text-sm text-blue-500 cursor-pointer">Show more</div>
+          </div>
+        </div>
+
+        <div
+          class="who m-3 px-4 py-3 bg-black w-80 rounded-xl border border-slate-700"
+        >
+          <h1 class="text-lg"><b>What to follow</b></h1>
+
+          <div class="image py-3 flex justify-start gap-2 cursor-pointer">
+            <img
+              src="TeMY2Ik6_400x400.jpg"
+              alt=""
+              class="w-10 h-10 object-cover rounded-full"
+            />
+            <div class="alignment flex-col">
+              <div class="heading hover:underline font-bold text-xs text-left">
+                DUA LIPA
+              </div>
+              <div class="sub text-xs text-gray-500">@DUALIPA</div>
+            </div>
+            <button
+              class="mx-20 mr-2 md:w-fit cursor-pointer px-4 py-2 bg-white text-black text-sm font-bold rounded-full"
+            >
+              Follow
+            </button>
+          </div>
+
+          <div class="image py-3 flex justify-start gap-2 cursor-pointer">
+            <img
+              src="KI5HswSc_400x400.jpg"
+              alt=""
+              class="w-10 h-10 object-cover rounded-full"
+            />
+            <div class="alignment flex-col">
+              <div class="heading hover:underline font-bold text-xs text-left">
+                Lady Gaga
+              </div>
+              <div class="sub text-xs text-gray-500">@ladygaga</div>
+            </div>
+            <button
+              class="mx-20 mr-2 md:w-fit cursor-pointer px-4 py-2 bg-white text-black text-sm font-bold rounded-full"
+            >
+              Follow
+            </button>
+          </div>
+
+          <div class="image py-3 flex justify-start gap-2 cursor-pointer">
+            <img
+              src="o4L2z8Ay_400x400.jpg"
+              alt=""
+              class="w-10 h-10 object-cover rounded-full"
+            />
+            <div class="alignment flex-col">
+              <div class="heading hover:underline font-bold text-xs text-left">
+                Cristiano
+              </div>
+              <div class="sub text-xs text-gray-500">@Cristiano</div>
+            </div>
+            <button
+              class="mx-20 mr-2 md:w-fit cursor-pointer px-4 py-2 bg-white text-black text-sm font-bold rounded-full"
+            >
+              Follow
+            </button>
+          </div>
+
+          <div class="item">
+            <div class="text-sm text-blue-500 cursor-pointer">Show more</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
